@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <script defer src="/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <title>HealthTrack</title>
+</head>
+
+<body>
+    <a href="#intro">
+        <button id="TopBtn" title="Go to top">
+            &bigtriangleup;
+        </button>
+    </a>
+    <header id="header">
+        <ul>
+            <nav class="container-fluid">
+
+                <div class="navb-logo logo">
+                    <a href="index.html">
+                        <div class="img-block">
+                            <img src="/assets/images/Logo.png" alt="">
+                        </div>
+                        <div class="text-block">
+                            <p>HealthTrack</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="menu_toggle" id="toggle"></div>
+                <div class="navb-items">
+                    <div class="item">
+                        <a id="style-2" href="index.html#intro">
+                            <span>Main page</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="Subscriptions.html" &bigtriangledown;>
+                            <span id="span">Subscriptions &bigtriangledown;</span></a>
+                        <ul id="ul">
+                            <div class="item list">
+                                <a id="style-2" href="Subscriptions.html">
+                                    <span>Free</span></a>
+                            </div>
+                            <div class="item list">
+                                <a id="style-2" href="Subscriptions.html">
+                                    <span>HealthTrack Pro</span></a>
+                            </div>
+                            <div class="item list">
+                                <a id="style-2" href="Subscriptions.html">
+                                    <span>HealthTrack Premium</span></a>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="navb-logo">
+                        <a href="index.html">
+                            <div class="img-block">
+                                <img src="/assets/images/Logo.png" alt="">
+                            </div>
+                            <div class="text-block">
+                                <p>HealthTrack</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="About us.html"><span>About us</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#footer"><span>Contacts</span></a>
+                    </div>
+                </div>
+            </nav>
+        </ul>
+    </header>
+    <section id="intro" class="section__intro">
+        <div class="section__intro-description">
+            <div class="text-cont">
+                <h1>HEALTH TRACK</h1>
+                <h4>
+                    Simplify Wellness with HealthTrack: Your Health, Your Way.
+                </h4><br>
+                <h3>With HealthTrack, you'll have a comprehensive and user-friendly tool that puts your health and
+                    fitness at your fingertips. <br>Whether you're looking to monitor your heartbeat, count your daily
+                    steps, or track various other health metrics, this app has you covered.
+                </h3>
+            </div>
+            <div class="section__intro-description-btn">
+                <button class="modal-btn" id="modal-btn">Get started for free</button>
+            </div>
+        </div>
+        <div class="section__intro-logo">
+            <div class="img-cont">
+                <img src="/assets/images/intro/black-woman-jogging-with-dog-in-spring-park-healthy-lifestyle-sport-outdoor-activity-concept-illustration-free-vector-removebg.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section__aboutUs">
+        <div class="section__aboutUs-title">
+            <p>High-impact features of HealthTrack</p>
+        </div>
+        <div class="section__aboutUs-description">
+            <div class="section__aboutUs-description-row">
+                <div class="section__aboutUs-description-row-item">
+                    <div class="item-logo">
+                        <img src="/assets/images/about us/envelop.png" alt="">
+                    </div>
+                    <div class="item-description">
+                        <p>Email marketing</p>
+                        <span>Stay connected and informed with HealthTrack's email marketing updates. Receive personalized health insights, tips, and reminders directly in your inbox</span>
+                    </div>
+                </div>
+                <div class="section__aboutUs-description-row-item">
+                    <img src="/assets/images/about us/diagram.png" alt="">
+                </div>
+                <div class="section__aboutUs-description-row-item">
+                    <div class="item-logo">
+                        <img src="/assets/images/about us/wheelwindow.png" alt="">
+                    </div>
+                    <div class="item-description">
+                        <p>Content Marketing</p>
+                        <span>From articles and videos to expert advice and success stories, HealthTrack provides valuable, regularly updated content to keep you engaged and informed on your wellness journey.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section__aboutUs-description-row">
+                <div class="section__aboutUs-description-row-item">
+                    <div class="item-logo">
+                        <img src="/assets/images/about us/lock.png" alt="">
+                    </div>
+                    <div class="item-description">
+                        <p>Top Security</p>
+                        <span>Your health data is your private sanctuary. With HealthTrack's top-tier security features, you can rest assured that your personal health information is safeguarded</span>
+                    </div>
+                </div>
+                <div class="section__aboutUs-description-row-item">
+                    <div class="item-logo">
+                        <img src="/assets/images/about us/horn.png" alt="">
+                    </div>
+                    <div class="item-description">
+                        <p>Paid Campaigns</p>
+                        <span>Our paid campaigns offer advanced tools, such as exclusive workouts, nutrition guides, and advanced goal tracking, ensuring you get the most out of your health and fitness endeavors.</span>
+                    </div>
+                </div>
+                <div class="section__aboutUs-description-row-item">
+                    <div class="item-logo">
+                        <img src="/assets/images/about us/resumecard.png" alt="">
+                    </div>
+                    <div class="item-description">
+                        <p>Social Media Marketing</p>
+                        <span>Stay motivated and inspire others on your path to better health with HealthTrack's seamless social media integration.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__subscriptons">
+        <div class="section__subscripton-description">
+            <div class="section__subscripton-description-title">
+                <p>We have impactful numbers</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum.</span>
+            </div>
+            <div class="section__subscripton-description-row">
+                <div class="section__subscripton-description-row-item" style="background-color: #FFE174;">
+                    <p>97.5<h>%</h>
+                    </p>
+                    <span>Customer satisfaction</span>
+                </div>
+                <div class="section__subscripton-description-row-item" style="background-color: #FFC5E1;">
+                    <p>130<h>+</h>
+                    </p>
+                    <span>Projects Completed</span>
+                </div>
+            </div>
+            <div class="section__subscripton-description-row">
+                <div class="section__subscripton-description-row-item" style="background-color: #D0FFE8;">
+                    <p>55<h>M</h>
+                    </p>
+                    <span>Revenue Generated</span>
+                </div>
+                <div class="section__subscripton-description-row-item" style="background-color: #E6DEFF;">
+                    <p>100<h>%</h>
+                    </p>
+                    <span>Company growth</span>
+                </div>
+            </div>
+        </div>
+
+        <div class=".section__subscripton-swiper swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style=" background-image: url(/assets/images/subscription/div.pricing-content\ \(1\).png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <div class="swiper-wrapper-information">
+                        <div class="swiper-wrapper-title">
+                            <div class="title-block">
+                                <p>HealthTrack Basic</p>
+                                <div class="block"> Basic </div>
+                            </div>
+
+                            <div class="Price">
+                                <p>Free</p>
+                            </div>
+                            <div class="question">
+                                <p>WHAT'S INCLUDED</p>
+                            </div>
+
+                        </div>
+                        <div class="swiper-wrapper-features">
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Heart Rate Monitoring</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Steps Counter</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Basic Goal Setting</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Limited Ads</p>
+                            </div>
+                        </div>
+
+                        <div class="btn">
+                            <button class="modal-btn2">
+                                <p>Add to card</p>
+                            </button>
+                        </div>
+                        <div class="bottom">
+                            Need help? Contact us at contact@example.com
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style=" background-image: url(/assets/images/subscription/div.pricing-content.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <div class="swiper-wrapper-information">
+                        <div class="swiper-wrapper-title">
+                            <div class="title-block">
+                                <p>HealthTrack Pro</p>
+                                <div class="block"> Popular </div>
+                            </div>
+
+                            <div class="Price">
+                                <p1>$4.99 </p1>
+                                <p> $2.99</p>
+                            </div>
+                            <div class="question">
+                                <p>WHAT'S INCLUDED</p>
+                            </div>
+
+                        </div>
+                        <div class="swiper-wrapper-features">
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Heart Rate Monitoring</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Steps Counter</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Sleep Analysis</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Health Reminders</p>
+                            </div>
+                        </div>
+
+                        <div class="btn">
+                            <button>
+                                <p>Add to card</p>
+                            </button>
+                        </div>
+                        <div class="bottom">
+                            Need help? Contact us at contact@example.com
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style=" background-image: url(/assets/images/subscription/div.pricing-content\ \(2\).png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <div class="swiper-wrapper-information">
+                        <div class="swiper-wrapper-title">
+                            <div class="title-block">
+                                <p>HealthTrack Premium</p>
+                                <div class="block"> Premium </div>
+                            </div>
+
+                            <div class="Price">
+                                <p>$9.99</p>
+                            </div>
+                            <div class="question">
+                                <p>WHAT'S INCLUDED</p>
+                            </div>
+
+                        </div>
+                        <div class="swiper-wrapper-features">
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>All HealthTrack Pro Features</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Priority Customer Support</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Access to Premium Workouts and Meal Plans</p>
+                            </div>
+
+                            <div class="block new">
+                                <div class="circle">
+                                    <img src="/assets/images/subscription/checkmark.png" alt="">
+                                </div>
+                                <p>Multi-Device Syncing</p>
+                            </div>
+                        </div>
+
+                        <div class="btn">
+                            <button>
+                                <p>Add to card</p>
+                            </button>
+                        </div>
+                        <div class="bottom">
+                            Need help? Contact us at contact@example.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <form class="modal-content" onsubmit="return formValidate(this)" name="modal-content">
+            <div class="close-modal">
+                <img src="/assets/images/modal/close.png" id="close-modal" class="close-modal" alt="">
+            </div>
+            <div class="modal-content-title">
+                <p>Subscribe</p>
+            </div>
+
+            <div class="input-info">
+                <div class="part_input">
+                    <div class="text_inputbox">
+                        <p>First name</p>
+                        <input type="text" class="form__input first_name" placeholder="First name" name="first_name"
+                            id="first_name">
+                    </div>
+
+                    <div class="text_inputbox">
+                        <p>Second name</p>
+                        <input type="text" class="form__input" placeholder="Second name" name="second_name"
+                            id="second_name">
+                    </div>
+                </div>
+
+                <div class="part_input">
+                    <div class="text_inputbox">
+                        <p>Email</p>
+                        <input type="text" class="form__input enter_text email" placeholder="Email" name="Email"
+                            id="Email">
+                    </div>
+
+                    <div class="text_inputbox">
+                        <div class="phone">
+                            <p>Phone</p>
+                        </div>
+                        <input type="text" class="form__input enter_text phone" placeholder="Phone" name="Phone"
+                            id="Phone">
+                    </div>
+                </div>
+
+                <div class="checkbox-container">
+                    <label class="container">I'm agree with terms and conditions
+                        <input type="checkbox" checked="checked" id="formAgreement">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="modal-button-container">
+                    <button type="submit" class="modal-button" name="submit-form">Submit</button>
+                </div>
+            </div>
+            <div class="error_msg" data-form="modal-content"></div>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <div class="footer__icons">
+            <div class="footer__icons__title">
+                <a href="index.html">
+                    <div class="img-block">
+                        <img src="/assets/images/Logo.png" alt="">
+                    </div>
+                    <div class="text-block">
+                        <p>HealthTrack</p>
+                    </div>
+                </a>
+                <div class="footer__icons__title_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.
+                </div>
+            </div>
+
+            <div class="footer__icons-subsription">
+                <div class="title">
+                    <p>
+                        Subscribe to our newsletter
+                    </p>
+                </div>
+                <form class="input" onsubmit="return email()" >
+                    <input type="text" id="footer_email" placeholder="Enter your email address">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer__info">
+
+            <div class="info">
+                <div class="footer__schedule">
+                    <div class="footer__schedule_top">
+                        <p1>Support</p1><br><br>
+                        <p>
+                            12:00 — 20:00 Wednesday<br>
+                        </p>
+                        <p>
+                            12:00 — 20:00 Thursday<br>
+                        </p>
+                        <p>
+                            12:00 — 20:00 Friday<br>
+                        </p>
+                        <p>
+                            11:00 — 19:00 Saturday<br>
+                        </p>
+                        <p>
+                            11:00 — 19:00 Sunday<br><br>
+                        </p>
+                    </div>
+                    <div class="footer__schedule_bottom">
+                        <p>
+                            Have questions, concerns, or just need guidance? We're here to help every step of the way!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer__schedule">
+                    <div class="footer__schedule_top">
+                        <p1>Subscription</p1><br><br>
+                        <p>
+                            <p1> HealthTrack Basic</p1> (Free)<br>
+                        </p>
+                        <p>
+                            <p1>HealthTrack Pro</p1> ($4.99/month)<br>
+                        </p>
+                        <p>
+                            <p1>HealthTrack Premium</p1> ($9.99/month)<br><br>
+                        </p>
+                    </div>
+                    <div class="footer__schedule_bottom">
+                        <p> These subscription options allow users to choose the level of features and support that best
+                            suits their health and fitness needs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separartor">
+            </div>
+            <div class="footer__contacts">
+                <p1>Contacts</p1><br>
+                <div class="item">
+                    <img src="/assets/images/footer/mail.png" alt=""> contact@example.com<br>
+                </div>
+                <div class="item">
+                    <img src="/assets/images/footer/phone.png" alt="">
+                    <p> (123) 456 - 6789</p><br>
+                </div>
+
+                <div class="item">
+                    <img src="/assets/images/footer/location.png" alt="">
+                    234 Location Ave District
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/imask"></script>
+
+</body>
+
+</html>

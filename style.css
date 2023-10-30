@@ -619,9 +619,10 @@ section {
     }
 
     .section__aboutUs-title p {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 30px;
         font-weight: 600;
+        padding: 15px;
     }
 
     .section__intro-description-btn button {
@@ -630,6 +631,13 @@ section {
 }
 
 @media(max-width:300px) {
+
+    .section__aboutUs-title p {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 600;
+        padding: 15px;
+    }
     .section__aboutUs-description-row-item{
         flex-direction: column;
         text-align: center;
@@ -1380,6 +1388,19 @@ footer {
     letter-spacing: 0.3em;
 }
 
+@media(max-width: 1000px){
+    .modal-button-container {
+        padding: 0px;
+        height: 57px;
+        width: 30%;
+    }
+    .input-info .form__input{
+        padding: 12px 8px;
+        font-size: 14px;
+    }
+}
+
+
 .part_input-checkbox {
     padding: 0px 20px;
     margin: 20px 0px;
@@ -1476,4 +1497,60 @@ button:hover {
 
 #first_name._error{
     border: 1px solid red;
+}
+
+
+@media(max-width: 800px){
+    .modal-content{
+        padding: 25px;
+    }
+    .input-info .part_input{
+        flex-direction: column;
+    }
+    .input-info{
+        padding: 0px;
+    }
+    .container{
+        font-size: 13px;
+    }
+    .checkbox-container{
+        padding: 15px 0;
+
+    }
+    .modal-button-container {
+        height: 57px;
+        padding-left: 0;
+        width: 50%;
+    }
+}
+
+@media(max-width:500px){
+    .input-info p{
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .input-info .part_input {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .input-info .text_inputbox {
+        flex: 1;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .container {
+        padding-left: 25px;
+        font-size: 9px;
+    }
+    .modal-button-container {
+        width: 100%;
+    }
+    .modal-content-title p {
+        font-size: 15px;
+    }
+    .input-info .form__input {
+        padding: 12px 5px;
+        font-size: 12px;
+    }
 }

@@ -611,9 +611,10 @@ section {
     }
 
     .section__aboutUs-description-row-item .item-logo {
-        margin-bottom: 40px;
-        margin-right: 40px;
-        width: 100px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        width: 200px;
         height: 80px;
     }
 
@@ -629,9 +630,18 @@ section {
 }
 
 @media(max-width:300px) {
+    .section__aboutUs-description-row-item{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .section__aboutUs-description-row-item .item-descriptions{
+        width: 100%;
+    }
     .section__aboutUs-description-row-item .item-logo {
-        margin-bottom: 0;
-        margin-right: 10px;
+        width: 100%;
+        margin: 0px;
+        padding: 5px ;
     }
 }
 

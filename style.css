@@ -1327,24 +1327,6 @@ footer {
     padding: 0px 20px;
 }
 
-.error_msg {
-    color: #1A5A4C;
-    border: 1px solid #1A5A4C;
-
-    box-shadow: 0 0 15px #1A5A4C;
-    transition: all 0.3s;
-
-    font-family: Poppins;
-    text-align: center;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 10px;
-    display: none;
-
-    width: 70%;
-    margin: 10px auto;
-}
-
 .close-modal {
     width: 100%;
     display: flex;
@@ -1491,8 +1473,9 @@ button:hover {
     padding: 10px;
     display: none;
 
+    margin: 0;
+    margin-top: 15px;
     width: 70%;
-    margin: 10px auto;
 }
 
 #first_name._error{
@@ -1500,9 +1483,10 @@ button:hover {
 }
 
 
-@media(max-width: 800px){
+@media(max-width: 850px){
     .modal-content{
         padding: 25px;
+        margin: 5% auto;
     }
     .input-info .part_input{
         flex-direction: column;
@@ -1522,11 +1506,21 @@ button:hover {
         padding-left: 0;
         width: 50%;
     }
+    .modal-content {
+        width: 80%;
+     }
+     .error_msg{
+        margin-top: 20px;
+        width: 80%;
+     }
 }
 
 @media(max-width:500px){
+    .checkmark{
+        top: -4px;
+    }
     .input-info p{
-        line-height: 35px;
+        line-height: 30px;
         font-size: 14px;
     }
     .input-info .part_input {
@@ -1553,4 +1547,7 @@ button:hover {
         padding: 12px 5px;
         font-size: 12px;
     }
+    .error_msg{
+        width: 100%;
+     }
 }
